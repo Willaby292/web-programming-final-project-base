@@ -1,0 +1,49 @@
+body {
+background-image: url(images/loginwallpaper.jpg);
+  background-size: cover;
+  resize: both;
+  overflow: scroll;
+}
+
+header{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    color: darkred;
+}
+
+/* Bordered form */
+form {
+  width: 50%;
+  margin-left: 25%;
+  background-color: white;
+  border: 10px solid #12151f;
+  padding: 10px;
+    
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #12151f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
