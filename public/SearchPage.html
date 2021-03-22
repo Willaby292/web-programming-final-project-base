@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Search Page</title>
+        <link rel="stylesheet" href="SearchPage.css">
+        <script defer></script>
+    </head>
+    
+    <body class="searchPage">
+        <header>
+            <nav class="navigation">
+                <a id="profileButton" href="#profile">Your Profile</a>
+                <a id="logoutButton" href="#logout">Logout</a>
+            </nav>
+            <h1 id="searchPageHeader">Search&nbsp; For&nbsp;  Your&nbsp;  Mate</h1>
+        </header>
+
+        <main>
+            <form>
+                <section>
+                    <div class="searchInputs" id="slayerBox">
+                        <label for="slayer" id="slayerBoxLabel">Slayer</label>
+                        <input type="range" id="slayer" name="slayer" min="1" max="99">
+                        <p class="lowerLevelLabel">1</p>
+                        <p class="higherLevelLabel">99</p>            
+                    </div>
+                    <div class="searchInputs" id="constitutionBox">
+                        <label for="constitution">Constitution</label>
+                        <input type="range" id="constitution" name="constitution" min="1" max="99">
+                        <p class="lowerLevelLabel">1</p>
+                        <p class="higherLevelLabel">99</p>
+                    </div>
+                    <div class="searchInputs" id="cookingBox">
+                        <label for="cooking">Cooking</label>
+                        <input type="range" id="cooking" name="cooking" min="1" max="99">
+                        <p class="lowerLevelLabel">1</p>
+                        <p class="higherLevelLabel">99</p>
+                    </div>
+                    <div style="clear:both"></div>
+                    <div class="searchInputs" id="strengthBox">
+                        <label for="strength">Strength</label>
+                        <input type="range" id="strength" name="strength" min="1" max="99">
+                        <p class="lowerLevelLabel">1</p>
+                        <p class="higherLevelLabel">99</p>
+                    </div>
+                    <div class="searchInputs" id="firemakingBox">
+                        <label for="firemaking">Firemaking</label>
+                        <input type="range" id="firemaking" name="firemaking" min="1" max="99">
+                        <p class="lowerLevelLabel">1</p>
+                        <p class="higherLevelLabel">99</p>
+                    </div>
+                    <div style="clear:both"></div>
+                    <div class="searchInputs" id="agilityBox">
+                        <label for="agility">Agility</label>
+                        <input type="range" id="agility" name="agility" min="1" max="99">
+                        <p class="lowerLevelLabel">1</p>
+                        <p class="higherLevelLabel">99</p>
+                    </div>
+                    <div class="searchInputs" id="moneyBox">
+                        <label for="money">Money</label>
+                        <input type="range" id="money" name="money" min="0" max="9999999">
+                        <p class="lowerLevelLabel" id="moneyMin">0</p>
+                        <p class="higherLevelLabel" id="moneyMax">9999999</p>
+                    </div>
+                    <div style="clear:both"></div>
+                </section>
+                <div>
+                    <p class="error" id="searchError">Please make sure you have satisfied all fields!</p>
+                    <button id="submitSearch" inheritgeometricPrecisionwavytype="submit" formtarget="_blank">Search</button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

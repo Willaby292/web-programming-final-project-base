@@ -1,0 +1,100 @@
+
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #A0522D;
+    height: 1000px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+}
+.header button {
+    color: black;
+    width: 100px;
+
+
+}
+
+#home {
+
+    margin-right: 50px;
+}
+#logout {
+    margin-left: 50px;
+}
+
+.header div {
+    height:auto;
+    width: 500px;
+    margin-right: 100px;
+    font-size: large;
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
+
+}
+
+
+.char {
+    background-image: url(./images/Knight_of_Ardougne.png);
+}
+.slayerLvl {
+    background-image: url(./images/eo0e951g.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 75px;
+    overflow: auto;
+    color:black;
+    
+}
+.slayerLvl h3{
+    
+    color:black;
+}
+
+.container div{
+    
+    
+    height: 100%;
+    width: 40%;
+    margin: 10px;
+    
+    background-color: #228B22;
+    
+
+}
+.about {
+    height: 100%;
+    width: 100%;
+    background-color: #228B22;
+    overflow: auto;
+}
+.headerCont{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 100%;
+    border: black;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+* {
+    color:#0c0b0b;
+}
